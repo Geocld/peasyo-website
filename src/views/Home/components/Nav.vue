@@ -126,7 +126,7 @@ const isMenuOpen = ref(false)
 
 
 const isLanguageMenuOpen = ref(false)
-const currentLanguage = ref('zh')
+const currentLanguage = ref('en')
 
 
 const toggleLanguageMenu = () => {
@@ -142,13 +142,13 @@ const changeLanguage = (lang) => {
 }
 
 const initLanguageByBrowser = () => {
-    const userLanguage = navigator.language || navigator.userLanguage
-    const shortLang = userLanguage.split('-')[0]
-    if (shortLang in languageList) {
-        currentLanguage.value = shortLang
-    } else {
-        currentLanguage.value = 'zh' // Default to Chinese if no match
-    }
+    // const userLanguage = navigator.language || navigator.userLanguage
+    // const shortLang = userLanguage.split('-')[0]
+    // if (shortLang in languageList) {
+    //     currentLanguage.value = shortLang
+    // } else {
+    //     currentLanguage.value = 'en'
+    // }
 }
 
 const initLanguage = () => {
