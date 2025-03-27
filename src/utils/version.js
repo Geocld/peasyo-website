@@ -1,5 +1,11 @@
 export default [
   {
+    version: "v1.2.0",
+    date: "2025-03-27",
+    description:
+      "",
+  },
+  {
     version: "v1.1.1",
     date: "2025-02-27",
     description:
@@ -26,12 +32,6 @@ export default [
   {
     version: "v1.0.2",
     date: "2025-01-22",
-    description:
-      "",
-  },
-  {
-    version: "v1.0.1",
-    date: "2025-01-21",
     description:
       "",
   },
